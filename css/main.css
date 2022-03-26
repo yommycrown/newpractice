@@ -1,7 +1,8 @@
 
 body{
     background-color: rgb(219, 223, 226);
-
+    
+padding: 2em;
 }
 
 
@@ -12,7 +13,7 @@ body{
 }
 
 .nav-link, .navbar-brand{
-    color: #f4f4f4;
+    color: #ee7e34;
     cursor: pointer;
 }
 
@@ -36,7 +37,7 @@ body{
 
 
 .overlay{
-    background:antiquewhite;
+    background:antiquewhite url("../images/bg.jpg");
     background-repeat: repeat-y;
     color: white;
     text-align: left;
@@ -79,7 +80,7 @@ body{
 /*About me*/
 
 .about{
-    margin: 4em 0;
+    margin: 12em 0;
     padding: 1em;
     position: relative;
     display: inline-block;
@@ -92,7 +93,7 @@ body{
 
 .about h1{
     color: #f97300;
-    margin: 2em;
+    margin: 1em;
     text-align: center;
 
 }
@@ -108,7 +109,7 @@ body{
     color: #888;
     position: absolute;
     padding-top: .5em;
-    left: 150px;
+    left: 120px;
 }
 
 .about .avatar{
@@ -140,20 +141,22 @@ body{
 /*Portfolio*/
 
 .portfolio{
-    margin: 4em 0;
+    margin: 3em 0;
     position: relative;
+   
+    padding-right: 2em;
 }
 
 
 .portfolio h1{
     color: #f97300;
-    margin: 2em;
+    margin: 1em;
 }
 
 .portfolio img{
     height: 15rem;
     width: 100%;
-    margin: 0;
+    
 }
 
 
@@ -162,10 +165,13 @@ body{
 .blog{
     margin: 4em 0;
     position: relative;
+    padding-right: 2em;
+    padding-bottom: 2em;
 }
 
 .team .container{
     margin: 0;
+    padding-right: 2em;
 }
 
 
@@ -212,6 +218,7 @@ body{
     margin: 4em 0;
     position: relative;
     display: flex;
+    padding-right: 2em;
 
 }
 
@@ -304,6 +311,48 @@ body{
     color: #888;
     font-size: 16px;
     padding-top: 2em;
+}
+
+
+
+
+.footer{
+    background: #303036;
+    color: #d3d3d3;
+    height: 50%;
+    position: relative;
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 3em;
+    margin: 3em 3em 0 0;
+
+
+
+}
+
+.footer-details{
+text-align: center;
+font-size: .9rem;
+
+}
+
+
+
+
+
+.footer .footer-bottom{
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 5px;
+   
+
+
 }
 
 
