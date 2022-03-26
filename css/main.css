@@ -1,0 +1,334 @@
+
+body{
+    background-color: rgb(219, 223, 226);
+
+}
+
+
+
+
+.navbar{
+    background: #dadad7;
+}
+
+.nav-link, .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.nav-link:hover{
+    background:#f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    background:#fff !important ;
+}
+
+
+
+.overlay{
+    background:antiquewhite;
+    background-repeat: repeat-y;
+    color: white;
+    text-align: left;
+    padding-bottom: 4em;
+    height: 100%;
+    width: 100%;
+}
+
+
+.description{
+
+    
+    margin: auto;
+    padding: 12em 2em ;
+}
+
+
+.description h1{
+    color: #f97300;
+}
+
+
+.description p{
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+
+}
+
+
+
+.description button{
+    border: 1px solid #f97300;
+    color: #fff;
+}
+
+
+
+/*About me*/
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.container{
+    margin: 1em;
+}
+
+.about h1{
+    color: #f97300;
+    margin: 2em;
+    text-align: center;
+
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    padding-top: .5em;
+    left: 150px;
+}
+
+.about .avatar{
+    float: left;
+    padding-right: 4rem;
+}
+
+
+.about .desc{
+    margin-top: 2em;
+    padding: 2em;
+    border-left: 3px solid #10828c;
+    float: right;
+    padding-left: 4em;
+}
+
+
+.about .desc h3{
+    color: #10828c;
+}
+
+.about .desc p{
+    line-height: 2;
+    color: #888;
+}
+
+
+
+/*Portfolio*/
+
+.portfolio{
+    margin: 4em 0;
+    position: relative;
+}
+
+
+.portfolio h1{
+    color: #f97300;
+    margin: 2em;
+}
+
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 0;
+}
+
+
+/* Blog */
+
+.blog{
+    margin: 4em 0;
+    position: relative;
+}
+
+.team .container{
+    margin: 0;
+}
+
+
+.blog h1{
+    color: #f97300;
+    margin: 2em;
+}
+
+
+.container{
+  padding: 2px 16px;
+}
+
+.blog .card{
+    box-shadow: 0 0 20px #ccc;
+}
+
+
+.blog .card-img-top{
+
+    
+}
+
+
+.blog .card-title{
+    color: #f97300;
+}
+
+
+.blog .card-body{
+    padding: 1em;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+
+
+/*Team*/
+
+
+.team {
+    margin: 4em 0;
+    position: relative;
+    display: flex;
+
+}
+
+
+.team h1{
+    color: #f97300;
+    margin: 2em;
+}
+
+
+
+.team .item{
+    position: relative;
+}
+
+
+.team .desc{
+
+    background: #f97300;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition: .3s ease-in-out;
+}
+
+
+
+ .team .item:hover .desc{
+    height: 100%;
+    background: #f973007d;
+    position: absolute;
+    width: 100%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+
+
+/* contact */
+
+.contact-form{
+    margin: 6em 0em;
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+
+}
+
+.contact-form h1{
+    padding: 2em 1px;
+    color: #f97300;
+}
+
+
+.contact-form .right{
+    max-width: 600px; 
+}
+
+
+.name{
+    margin-bottom: 1em;
+}
+
+.email{
+    margin-bottom: 1em;
+}
+
+.right{
+ padding-top: 1em;
+
+}
+
+
+.contact-form .right .btn-secondary{
+    background: #f97300;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    margin-top:1em;
+
+}
+
+
+.contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+    padding-top: 2em;
+}
+
+
+
+
+
+/*Media Query*/
+
+@media(min-width: 930px){
+    .contact-form .right .btn-secondary{
+        background: #f97300;
+        color: #fff;
+        border: 0;
+        width: 50%;
+        margin-top:1em;
+        margin: 1em 4em 2em 9em;
+    
+    }
+
+
+    .portfolio img{
+        height: 15rem;
+        width: 100%;
+        margin: 1em;
+    }
+
+    
+}
