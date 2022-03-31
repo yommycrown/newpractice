@@ -18,7 +18,7 @@ padding: 0em;
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: rgb(252, 251, 249); /* Black*/
+    background-color: rgb(22, 22, 21, .8); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -29,14 +29,14 @@ padding: 0em;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: #f3efef;
     display: block;
     transition: 0.3s;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-    color: #222121;
+    color: #f38d07;
   }
   
   /* Position and style the close button (top right corner) */
@@ -60,6 +60,8 @@ padding: 0em;
   
   .openbtn:hover {
     background-color: rgb(19, 18, 18);
+    height: 3em;
+    width: 3rem;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -94,11 +96,14 @@ padding: 0em;
   }
 
 
-
+  .navbar:hover{
+      background: transparent;
+  }
 
 .navbar{
-    background: #d4d4d2;
+    background: rgba(238, 146, 7, 0.8);
     color: white;
+   
 }
 
 .navbar-brand{
@@ -239,8 +244,7 @@ h1{
 .portfolio{
     margin: 3em 0;
     position: relative;
-   
-    padding-right: 2em;
+    padding: 1em;
     background-color: white;
 }
 
@@ -260,10 +264,9 @@ h1{
 /* Blog */
 
 .blog{
-    margin: 4em 0;
+    margin: 2em 0;
     position: relative;
-    padding-right: 2em;
-    padding-bottom: 2em;
+    padding: 1em;
     background-color: white;
 }
 
@@ -280,7 +283,7 @@ h1{
 
 
 .container{
-  padding: 2px 16px;
+  padding: 1px 16px;
 }
 
 .blog .card{
@@ -316,7 +319,7 @@ h1{
     margin: 4em 0;
     position: relative;
     display: flex;
-    padding-right: 2em;
+    padding: 1em;
     background-color: white;
 
 }
