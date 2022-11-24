@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(243, 149, 9);
+    background-color: rgb(253, 252, 252);
     
 padding: 0em;
 }
@@ -18,7 +18,7 @@ padding: 0em;
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: rgba(243, 133, 8, 0.8); /* Black*/
+    background-color: rgb(87, 87, 87); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 64px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -36,7 +36,7 @@ padding: 0em;
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-    color: #ff7f07;
+    color: #888787;
   }
   
   /* Position and style the close button (top right corner) */
@@ -59,9 +59,8 @@ padding: 0em;
   }
   
   .openbtn:hover {
-    background-color: rgb(243, 168, 6);
-    height: 3em;
-    width: 3em;
+    background-color: rgb(95, 95, 94);
+ 
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -97,11 +96,11 @@ padding: 0em;
 
 
   .navbar:hover{
-      background: transparent;
+      background:rgb(61, 60, 60);
   }
 
 .navbar{
-    background: rgba(238, 146, 7, 0.8);
+    background: rgb(46, 46, 46);
     color: white;
    
 }
@@ -115,9 +114,9 @@ padding: 0em;
 
 
 .overlay{
-    background:rgb(253, 253, 252) url("../images/bg.jpg");
+    background:rgb(250, 250, 247) ;
     background-repeat: repeat-y;
-    color: white;
+    color: rgb(138, 136, 136);
     text-align: left;
     padding-bottom: 3em;
     height: 100%;
@@ -136,12 +135,12 @@ padding: 0em;
 
 
 .description, h1{
-    color: #f97300;
+    color: #3d3d3d;
 }
 
 
 .description p{
-    color:white ;
+    color:rgb(61, 61, 61) ;
     font-size: 20px;
     margin-top: 1em;
     width: 50%;
@@ -149,10 +148,15 @@ padding: 0em;
 
 }
 
+.avatar{
+    padding: 30px;
+    text-align: center;
+}
+
 
 
 .description button{
-    border: 1px solid #f97300;
+    border: 1px solid #fffefd;
     color: #fff;
 }
 
@@ -192,7 +196,7 @@ h1{
 }
 
 .about h1{
-    color: #f97300;
+    color: #85daff;
     margin: 1em;
     text-align: center;
 
@@ -221,10 +225,10 @@ h1{
 
 .about .desc{
     margin-top: 2em;
-    padding: 2em;
+    padding-top: 20px;
     border-left: 3px solid #10828c;
     float: right;
-    padding-left: 4em;
+    padding-left: 10px;
 }
 
 
@@ -250,7 +254,7 @@ h1{
 
 
 .portfolio h1{
-    color: #f97300;
+    color: #6accf0;
     margin: 1em;
 }
 
@@ -277,7 +281,7 @@ h1{
 
 
 .blog h1{
-    color: #f97300;
+    color: #68c2e6;
     margin: 2em;
 }
 
@@ -293,12 +297,16 @@ h1{
 
 .blog .card-img-top{
 
-    
+   
+}
+
+.img-fluid{
+    width: 100%;
 }
 
 
 .blog .card-title{
-    color: #f97300;
+    color: #555454;
 }
 
 
@@ -313,33 +321,35 @@ h1{
 
 
 /*Team*/
-
+.container-team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
 
 .team {
     margin: 4em 0;
-    position: relative;
-    display: flex;
     padding: 1em;
     background-color: white;
 
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 
 .team h1{
-    color: #f97300;
+    color: #444444;
     margin: 2em;
 }
 
 
 
-.team .item{
-    position: relative;
-}
-
-
 .team .desc{
 
-    background: #f97300;
+    background: #3d3c3c;
     color: #fff;
     text-align: center;
     border-bottom-left-radius: 93%;
@@ -350,7 +360,7 @@ h1{
 
  .team .item:hover .desc{
     height: 100%;
-    background: #f973007d;
+    background: #4a49497d;
     position: absolute;
     width: 100%;
     padding: 5em;
@@ -377,7 +387,7 @@ h1{
 
 .contact-form h1{
     padding: 2em 1px;
-    color: #f97300;
+    color: #777776;
 }
 
 
@@ -401,7 +411,7 @@ h1{
 
 
 .contact-form .right .btn-secondary{
-    background: #f97300;
+    background: #3c3c3c;
     color: #fff;
     border: 0;
     width: 100%;
@@ -466,7 +476,7 @@ font-size: .9rem;
 
 @media(min-width: 930px){
     .contact-form .right .btn-secondary{
-        background: #f97300;
+        background: #434343;
         color: #fff;
         border: 0;
         width: 50%;
@@ -478,7 +488,7 @@ font-size: .9rem;
 
     .portfolio img{
         height: 15rem;
-        width: 100%;
+        width: 30%;
         margin: 1em;
     }
 
